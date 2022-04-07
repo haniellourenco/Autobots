@@ -58,38 +58,6 @@ nav a:hover {
 	font-size: 2.2rem;
 }
 
-.posts {
-	width: 1280px;
-	margin: 0 auto;
-	padding: 10rem 0;
-}
-
-.posts li {
-	background: #f7f7f7;
-	display: inline-block;
-	text-align: center;
-	width: 27%;
-	vertical-align: top;
-	margin: 0 3%;
-	padding: 0 1rem 2rem;
-	box-sizing: border-box;
-}
-
-.posts img {
-	max-width: 100px;
-	max-height: 100px;
-}
-
-.posts h2 {
-	font-size: 2.4rem;
-	font-weight: bold;
-}
-
-.post-descricao {
-	font-size: 1.4rem;
-	margin: 1rem 0 1rem;
-}
-
 footer {
 	position: absolute;
 	padding: 4rem 0;
@@ -102,4 +70,9 @@ footer {
 	color: #ffffff;
 	font-size: 2rem;
 	margin-left: 10rem;
+}
+
+main {
+	width: 94rem;
+	margin: 0 auto;
 }

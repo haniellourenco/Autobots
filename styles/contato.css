@@ -1,0 +1,16 @@
+form {
+	margin: 4rem 0;
+}
+
+form label {
+	display: block;
+	font-size: 2rem;
+	margin: 0 0 1rem;
+}
+
+form input {
+	display: block;
+	margin: 0 0 2rem;
+	padding: 1rem 2.5rem;
+	width: 50%;
+}
