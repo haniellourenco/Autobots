@@ -2,15 +2,54 @@ form {
 	margin: 4rem 0;
 }
 
-form label {
+form label,
+form legend {
 	display: block;
 	font-size: 2rem;
 	margin: 0 0 1rem;
 }
 
-form input {
+.input-padrao {
 	display: block;
 	margin: 0 0 2rem;
 	padding: 1rem 2.5rem;
 	width: 50%;
+}
+
+.checkbox {
+	margin: 2rem 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 1.5rem 0;
+	background-color: #202a2c;
+	color: white;
+	font-weight: bold;
+	font-size: 1.8rem;
+	border: none;
+	border-radius: 0.5rem;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #16191a;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 2rem 0 4rem;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td,
+th {
+	border: 0.1rem solid #000000;
+	padding: 0.8rem 1.5rem;
 }

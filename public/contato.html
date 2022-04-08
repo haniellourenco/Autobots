@@ -31,16 +31,107 @@
 		<main>
 			<form action="">
 				<label for="nomesobrenome">Nome e sobrenome</label>
-				<input type="text" id="nomesobrenome" />
+				<input type="text" id="nomesobrenome" class="input-padrao" required />
 
 				<label for="email">E-mail</label>
-				<input type="text" name="" id="email" />
+				<input
+					type="email"
+					name=""
+					id="email"
+					class="input-padrao"
+					required
+					placeholder="seuemail@dominio.com"
+				/>
 
 				<label for="telefone">Telefone</label>
-				<input type="text" id="telefone" />
+				<input
+					type="tel"
+					id="telefone"
+					class="input-padrao"
+					required
+					placeholder="(XX) XXXXX-XXXX"
+				/>
 
-				<input type="submit" value="Enviar formulário" />
+				<label for="mensagem">Mensagem</label>
+				<textarea
+					name=""
+					id="mensagem"
+					cols="30"
+					rows="10"
+					class="input-padrao"
+					required
+				></textarea>
+
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"
+						><input
+							type="radio"
+							value="email"
+							id="radio-email"
+							name="contato"
+						/>Email</label
+					>
+
+					<label for="radio-telefone"
+						><input
+							type="radio"
+							value="telefone"
+							id="radio-telefone"
+							name="contato"
+						/>Telefone</label
+					>
+
+					<label for="radio-whatsapp"
+						><input
+							type="radio"
+							value="whatsapp"
+							id="radio-whatsapp"
+							name="contato"
+							checked
+						/>Whatsapp</label
+					>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select name="" id="">
+						<option value="">Manhã</option>
+						<option value="">Tarde</option>
+						<option value="">Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"
+					><input type="checkbox" checked /> Gostaria de receber nossas
+					novidades por email?</label
+				>
+
+				<input type="submit" value="Enviar formulário" class="enviar" />
 			</form>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Dia</th>
+						<th>Horário</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Segunda</td>
+						<td>8h - 20h</td>
+					</tr>
+					<tr>
+						<td>Quarta</td>
+						<td>8h - 20h</td>
+					</tr>
+					<tr>
+						<td>Sexta</td>
+						<td>8h - 20h</td>
+					</tr>
+				</tbody>
+			</table>
 		</main>
 		<footer>
 			<p class="copyright">Autobots Copyright &copy;</p>

@@ -59,7 +59,7 @@ nav a:hover {
 }
 
 footer {
-	position: absolute;
+	position: relative;
 	padding: 4rem 0;
 	background-color: #202a2c;
 	bottom: 0;
