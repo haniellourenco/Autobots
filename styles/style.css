@@ -59,7 +59,7 @@ nav a:hover {
 }
 
 footer {
-	position: relative;
+	position: fixed;
 	padding: 4rem 0;
 	background-color: #202a2c;
 	bottom: 0;
@@ -70,9 +70,4 @@ footer {
 	color: #ffffff;
 	font-size: 2rem;
 	margin-left: 10rem;
-}
-
-main {
-	width: 94rem;
-	margin: 0 auto;
 }
