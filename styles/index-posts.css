@@ -25,6 +25,11 @@
 	height: 20rem;
 }
 
+.post a {
+	text-decoration: none;
+	color: inherit;
+}
+
 .post-titulo {
 	font-size: 1.8rem;
 	font-weight: bold;
