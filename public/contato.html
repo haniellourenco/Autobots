@@ -1,96 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Autobots - Contato</title>
 
-		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="../styles/reset.css" />
-		<link rel="stylesheet" href="../styles/style.css" />
-		<link rel="stylesheet" href="../styles/contato.css" />
-	</head>
-	<body>
-		<header>
-			<div class="caixa">
-				<h1>Autobots</h1>
-				<nav>
-					<ul>
-						<li><a href="./index.html">Home</a></li>
-						<li><a href="#">Fotos</a></li>
-						<li><a href="#">Sobre</a></li>
-						<li><a href="./contato.html">Contato</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<main>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Autobots - Contato</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="../styles/reset.css" />
+	<link rel="stylesheet" href="../styles/style.css" />
+	<link rel="stylesheet" href="../styles/contato.css" />
+</head>
+
+<body>
+	<header>
+		<div class="caixa">
+			<img class="logo" src="../assets/logotipo.png" alt="autobots" href="../public/index.html">
+			<nav>
+				<ul>
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="#">Fotos</a></li>
+					<li><a href="./sobre.html">Sobre</a></li>
+					<li><a href="./contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="container-box">
 			<form action="">
 				<label for="nomesobrenome">Nome e sobrenome</label>
 				<input type="text" id="nomesobrenome" class="input-padrao" required />
 
 				<label for="email">E-mail</label>
-				<input
-					type="email"
-					name=""
-					id="email"
-					class="input-padrao"
-					required
-					placeholder="seuemail@dominio.com"
-				/>
+				<input type="email" name="" id="email" class="input-padrao" required
+					placeholder="seuemail@dominio.com" />
 
 				<label for="telefone">Telefone</label>
-				<input
-					type="tel"
-					id="telefone"
-					class="input-padrao"
-					required
-					placeholder="(XX) XXXXX-XXXX"
-				/>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX" />
 
 				<label for="mensagem">Mensagem</label>
-				<textarea
-					name=""
-					id="mensagem"
-					cols="30"
-					rows="10"
-					class="input-padrao"
-					required
-				></textarea>
+				<textarea name="" id="mensagem" cols="30" rows="10" class="input-padrao" required></textarea>
 
 				<fieldset>
 					<legend>Como prefere o nosso contato?</legend>
-					<label for="radio-email"
-						><input
-							type="radio"
-							value="email"
-							id="radio-email"
-							name="contato"
-						/>Email</label
-					>
+					<label for="radio-email"><input type="radio" value="email" id="radio-email"
+							name="contato" />Email</label>
 
-					<label for="radio-telefone"
-						><input
-							type="radio"
-							value="telefone"
-							id="radio-telefone"
-							name="contato"
-						/>Telefone</label
-					>
+					<label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone"
+							name="contato" />Telefone</label>
 
-					<label for="radio-whatsapp"
-						><input
-							type="radio"
-							value="whatsapp"
-							id="radio-whatsapp"
-							name="contato"
-							checked
-						/>Whatsapp</label
-					>
+					<label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="contato"
+							checked />Whatsapp</label>
 				</fieldset>
 
 				<fieldset>
@@ -102,14 +65,13 @@
 					</select>
 				</fieldset>
 
-				<label class="checkbox"
-					><input type="checkbox" checked /> Gostaria de receber nossas
-					novidades por email?</label
-				>
+				<label class="checkbox"><input type="checkbox" checked /> Gostaria de receber nossas
+					novidades por email?</label>
 
 				<input type="submit" value="Enviar formulário" class="enviar" />
 			</form>
-
+		</div>
+		<div class="table-container-box">
 			<table>
 				<thead>
 					<tr>
@@ -132,14 +94,16 @@
 					</tr>
 				</tbody>
 			</table>
-		</main>
-		<footer>
-			<p class="copyright">Autobots Copyright &copy;</p>
-		</footer>
-	</body>
+		</div>
+	</main>
+	<footer>
+		<p class="copyright">Autobots Copyright &copy;</p>
+	</footer>
+</body>
 
-	<script type="text/javascript" src="../scripts/jquery.js"></script>
-	<script src="../scripts/jquery.inputmask.js"></script>
-	<script src="../scripts/jquery.maskMoney.js"></script>
-	<script type="text/javascript" src="../scripts/app.js"></script>
+<script type="text/javascript" src="../scripts/jquery.js"></script>
+<script src="../scripts/jquery.inputmask.js"></script>
+<script src="../scripts/jquery.maskMoney.js"></script>
+<script type="text/javascript" src="../scripts/app.js"></script>
+
 </html>
