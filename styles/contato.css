@@ -1,27 +1,33 @@
 .container-box {
-	width   : 94rem;
-	margin  : auto;
-	position: relative;
+	min-width: 128rem;
+	border: 2px solid black;
 }
 
-.table-container-box {}
+.table-container-box {
+	display: flex;
+	justify-content: center;
+}
 
 form {
-	padding: 4rem 0;
+	margin: 20rem auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
+
 
 form label,
 form legend {
-	display  : block;
+	display: block;
 	font-size: 2rem;
-	margin   : 0 0 1rem;
+	margin: 0 0 1rem;
 }
 
 .input-padrao {
 	display: block;
-	margin : 0 0 2rem;
+	margin: 0 0 2rem;
 	padding: 1rem 2.5rem;
-	width  : 50%;
+	width: 50%;
 }
 
 .checkbox {
@@ -29,21 +35,21 @@ form legend {
 }
 
 .enviar {
-	width           : 40%;
-	padding         : 1.5rem 0;
+	width: 40%;
+	padding: 1.5rem 0;
 	background-color: #202a2c;
-	color           : white;
-	font-weight     : bold;
-	font-size       : 1.8rem;
-	border          : none;
-	border-radius   : 0.5rem;
-	transition      : 0.5s all;
-	cursor          : pointer;
+	color: white;
+	font-weight: bold;
+	font-size: 1.8rem;
+	border: none;
+	border-radius: 0.5rem;
+	transition: 0.5s all;
+	cursor: pointer;
 }
 
 .enviar:hover {
 	background: #16191a;
-	transform : scale(1.2);
+	transform: scale(1.2);
 }
 
 table {
@@ -51,13 +57,13 @@ table {
 }
 
 thead {
-	background : #555555;
-	color      : white;
+	background: #555555;
+	color: white;
 	font-weight: bold;
 }
 
 td,
 th {
-	border : 0.1rem solid #000000;
+	border: 0.1rem solid #000000;
 	padding: 0.8rem 1.5rem;
 }
