@@ -22,14 +22,14 @@
 
 <body>
     <header>
-        <div class="caixa">
+        <div class="caixa" style="position: fixed; top: 0; z-index: 1;">
             <img class="logo" src="../assets/logotipo.png" alt="autobots" href="../public/index.html">
             <nav>
                 <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="#">Fotos</a></li>
-                    <li><a href="./sobre.html">Sobre</a></li>
-                    <li><a href="./contato.html">Contato</a></li>
+                    <li><a class="efect-transition" href="./index.html">Home</a></li>
+                    <li><a class="efect-transition" href="#">Fotos</a></li>
+                    <li><a class="efect-transition" href="./sobre.html">Sobre</a></li>
+                    <li><a class="efect-transition" href="./contato.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -40,7 +40,7 @@
                 <div class="container-content">
                     <div class="page-title">
                         <h1>
-                            Sobre o Grupo Autobots
+                            Grupo Autobots
                         </h1>
                     </div>
                     <div class="goal-container">
@@ -80,43 +80,37 @@
                         </div>
                     </div>
                     <div class="box-perfils">
-                        <div class="container-perfils">
-                            <div class="img-perfil">
+                        <div class="content-box">
+                            <div class="slides">
+                                <input type="radio" name="btn" id="btn1">
+                                <input type="radio" name="btn" id="btn2">
+                                <input type="radio" name="btn" id="btn3">
+                                <input type="radio" name="btn" id="btn4">
+                                <input type="radio" name="btn" id="btn5">
 
+                                <div class="navigation">
+                                    <label class="bar" for="btn1"></label>
+                                    <label class="bar" for="btn2"></label>
+                                    <label class="bar" for="btn3"></label>
+                                    <label class="bar" for="btn4"></label>
+                                    <label class="bar" for="btn5"></label>
+                                </div>
+
+                                <div class="slide s1"><img src="../assets/industria4.0.jpg" alt="in">
+                                    <div class="description">
+                                        <p class="c1">Nome: Luis Felipe Pereira.</br>Descrição: ...</p>
+                                        <p class="">Nome: Lauren Herrmann.</br>Descrição: ...</p>
+                                        <p class="">Nome: Victor Moy.</br>Descrição: ...</p>
+                                        <p class="">Nome: Haniel Lourenço Lohn.</br>Descrição: ...</p>
+                                        <p class="">Nome: Rafael Elias Pereira Junior.</br>Descrição: ...</p>
+                                    </div>
+                                </div>
+                                <div class="slide"><img src="../assets/pexels-mudassir-ali-2680270.jpg" alt="ma"></div>
+                                <div class="slide"><img src="../assets/WhatsApp Image 2022-05-19 at 19.49.13.jpeg"
+                                        alt=""></div>
+                                <div class="slide"><img src="../assets/wolf-howling-to-moon-2560x1440.jpg" alt=""></div>
+                                <div class="slide"><img src="../assets/pexels-ann-h-1762851.jpg" alt=""></div>
                             </div>
-
-                            <div class="img-perfil">
-
-                            </div>
-
-                            <div class="img-perfil">
-
-                            </div>
-
-                            <div class="img-perfil">
-
-                            </div>
-
-                            <div class="img-perfil">
-
-                            </div>
-                        </div>
-                        <div class="description">
-                            <p>
-                                Nome: Luis Felipe Pereira.</br>Descrição: ...
-                            </p>
-                            <p>
-                                Nome: Luis Felipe Pereira.</br>Descrição: ...
-                            </p>
-                            <p>
-                                Nome: Luis Felipe Pereira.</br>Descrição: ...
-                            </p>
-                            <p>
-                                Nome: Luis Felipe Pereira.</br>Descrição: ...
-                            </p>
-                            <p>
-                                Nome: Luis Felipe Pereira.</br>Descrição: ...
-                            </p>
                         </div>
                     </div>
                     <div class="container-box3">
@@ -126,7 +120,6 @@
                             construção dos projetos e atividades propostas.
                         </p>
                     </div>
-                </div>
             </article>
         </section>
     </main>
@@ -144,5 +137,6 @@
 <script src="../scripts/jquery.inputmask.js"></script>
 <script src="../scripts/jquery.maskMoney.js"></script>
 <script type="text/javascript" src="../scripts/app.js"></script>
+<script src="../scripts/transimg.js"></script>
 
 </html>

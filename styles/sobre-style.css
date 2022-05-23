@@ -15,6 +15,10 @@ article {
 /*------------------  -~^ Tamanha da página*/
 .container-content {
 	margin: 20px;
+	padding-bottom: 60px;
+	background-color: #e0e0e054;
+	width: 142rem ;
+	position: relative;
 }
 
 .container-content h1 {
@@ -45,6 +49,11 @@ article {
 	justify-content	: center;
 }
 
+.page-title h1 {
+	font-size		: 80px;
+	text-shadow: 2px 2px 2px black;
+}
+
 .goal-container {
 	width        	: 135.3rem;
 	height       	: 360px;
@@ -71,13 +80,11 @@ article {
 	margin        : 20px 0;
 
 	display    	  : flex;
-	align-items	  : center;
+	align-items: center;
 }
 
 .icone {
-	width : 80px;
-	height: 67.22px;
-	margin: 0 20px;
+	margin: auto 20px;
 }
 
 /*////////////////////////////// ----- BOX'S SEPARADAS *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
@@ -91,6 +98,7 @@ article {
 	flex-direction: column;
 	height        : 100px;
 	margin		  : auto;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.589);
 }
 
 .container-box2 {
@@ -100,8 +108,7 @@ article {
 	margin          : auto;
 	border-radius   : 4px;
 	padding         : 16px, 32px, 16px, 32px;
-	background-color: #E0E0E0;
-	box-shadow      : 0 0 5px black;
+	background-color: var(--bgcolor);
 
 	display        	: flex;
 	align-items    	: center;
@@ -112,48 +119,43 @@ article {
 	margin		  : auto 20px;
 
 	font-size     : 18px;
-	text-align    : justify;
+	text-align    : center;
 	line-height   : 27px;
 	text-transform: uppercase;
 	text-shadow	  : 0 0 1px black;
 
-	color		  : black;
+	color		  : #E0E0E0;
 }
 /*////////////////////////////// ----- BOX'S SEPARADAS *FIM*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
 /*////////////////////////////// ----- PERFILS *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
 .box-perfils {
-	margin          : 40px auto;
-	display         : flex;
-	flex-direction  : row;
+	height			: 600px;
+	margin          : 40px;
 	background-color: #E0E0E0;
 	box-shadow      : 0 0 5px black;
-	border-radius	: 4px;
-}
 
-.box-perfils .img-perfil {
-	height           : 340px;
-	width            : 645px;
-	margin           : 20px 0 20px 20px;
-	border           : 1px double black;
-	background-image : url(../assets/pexels-kindel-media-8566472.jpg);
-	background-repeat: no-repeat;
-	background-size  : cover;
+	display         : flex;
+	justify-content: center;
+	align-items		: center;
 }
 
 .description {
-	width         : 50%;
-	display       : inline-flex;
-	flex-direction: column;
+	width         : 500%;
+	height		  : 100px;
+	display		  : flex;
 }
 
 .description p {
-	height     : 340px;
-	margin     : 20px 0 0 20px;
+	width: 100%;
+	height: 100%;
+
+	margin: 20px;
 	text-indent: 0;
-	border	   : 1px solid transparent;
-	color      : black;	
+	text-align : justify;
 	font-size  : 18px;
+	color      : #E0E0E0;
 }
 /*////////////////////////////// ----- PERFILS *FIM*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
@@ -167,11 +169,13 @@ article {
 .container-box3 p {
 	margin		 : auto;
 	padding		 : 20px 0;
+
 	text-align	 : center;
 	color		 : black;
 	font-size	 : 18px;
 	border-top	 : 1px solid black;
 	border-bottom: 1px solid black;
+
 }
 /*////////////////////////////// ----- PAGE SOBRE *FIM*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
@@ -204,5 +208,87 @@ article {
 	}
 }
 /* ----------------------- */
+.container-box3 {
+	transition: transform 1s, text-shadow 2s; 
+}
 
-/*////////*/
+.container-box3:hover {
+	transform: scale(1.3);
+	text-shadow: 5px 3px 4px rgba(0, 0, 0, 0.521);
+}
+/* ----------------------- */
+
+/* ----------------------- */
+.container-box2 p:hover {
+	text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.534) ;
+	transition: 2s;
+}
+/* ----------------------- */
+.content-box {
+	height: 500px;
+	width: 629px;
+	overflow: hidden;
+	background-image: linear-gradient(to right, var(--bgcolor), black );
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.navigation {
+	display: inline-flex;
+	margin: auto;
+	position: absolute;
+}
+
+.bar {
+	width: 20px;
+	height: 20px;
+	border: 2.5px solid #E0E0E0;
+	border-radius: 50%;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.bar:hover {
+	background-color: var(--bgcolor);
+	transition: .2s;
+	transform: scale(1.1);
+
+}
+
+input {
+	display: none;
+}
+
+.slide img {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.slides {
+	width: 500%;
+	height: 80%;
+	display: flex;
+}
+
+.slide {
+	width: 20%;
+	transition: .8s;
+}
+/* ///////////////////// */
+#btn1:checked ~ .s1 {
+	margin-left: 0;
+}
+#btn2:checked ~ .s1 {
+	margin-left: -20%
+}
+#btn3:checked ~ .s1 {
+	margin-left: -40%;
+}
+#btn4:checked ~ .s1 {
+	margin-left: -60%;
+}
+#btn5:checked ~ .s1 {
+	margin-left: -80%;
+}
+/* ///////////////////// */

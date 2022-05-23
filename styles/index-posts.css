@@ -1,13 +1,11 @@
 .container-posts {
 	width: 100%;
 	min-width: 128rem;
-	border: 2px solid black;
 }
 
 .posts {
 	width : 1280px;
-	padding: 40px;
-	margin: 20rem auto;
+	margin: 10rem auto;
 }
 
 .post {
@@ -57,3 +55,4 @@
 	text-decoration: none;
 	color          : red;
 }
+/* -------------------------- */

@@ -1,6 +1,6 @@
 .container-box {
 	min-width: 128rem;
-	border: 2px solid black;
+	border: 2px solid transparent;
 }
 
 .table-container-box {
