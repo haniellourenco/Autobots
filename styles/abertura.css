@@ -14,8 +14,8 @@
 }
 .img-abertura .title-abertura{
     text-align: center;
-    padding-top: 30px;
     width: 100%;
+    margin-bottom: 20px;
     font-size: 60px;
     text-shadow: 0 5px 5px black;
     color: white;

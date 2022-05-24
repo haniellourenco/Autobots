@@ -22,6 +22,7 @@ h1 {
 .logo {
 	width: 334px;
 	height: 100%;
+	margin-left: 40px;
 }
 
 header h1 {
@@ -71,6 +72,36 @@ nav a {
 	text-decoration: none;
 }
 
+
+/*////////////////////////////// ----- HEADER *FIM*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+footer {
+	display: flex;
+	background-color: #202a2c;
+	padding: 4rem 0;
+	width: 100%;
+	min-width: 144rem;
+}
+
+.copyright {
+	color: #ffffff;
+    font-size: 2rem;
+    letter-spacing: 5px;
+	margin-left: 60px;
+}
+
+/*////////////////////////////// ----- FOOTER *FIM*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/* EFEITOS */
+.post:hover {
+	transition: 1s;
+	transform: scale(1.015);
+	box-shadow: 0 0 10px 5px #E0E0E0;
+}
+
+.post-leiamais:hover {
+	text-decoration: underline;
+}
+
 .efect-transition {
 	transition: font-size 0.150s;
 }
@@ -88,20 +119,3 @@ nav a {
 	transform: scale(0.9);
 	cursor: pointer;
 }
-
-/*////////////////////////////// ----- HEADER *FIM*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
-footer {
-	display: flex;
-	background-color: #202a2c;
-	padding: 4rem 0;
-	width: 100%;
-	min-width: 144rem;
-}
-
-.copyright {
-	color: #ffffff;
-	font-size: 2rem;
-	margin-left: 1.4rem;
-}
-
-/*////////////////////////////// ----- FOOTER *FIM*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
