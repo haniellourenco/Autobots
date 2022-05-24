@@ -1,0 +1,96 @@
+/*////////////////////////////// ----- Img-Header  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.img-header {
+	background-image   : url(../assets/industria4.0.jpg);
+	background-position: center center;
+	background-repeat  : no-repeat;
+	background-size    : cover;
+	width              : 100%;
+	min-width          : 128rem;
+	height             : 373px;
+}
+
+.img-header .title-header {
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+	height         : 100%;
+	width          : 100%;
+	font-size      : 68px;
+	text-shadow    : 0 5px 5px black;
+	color          : white;
+}
+
+/*////////////////////////////// ----- Img-Header *FIM*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/*////////////////////////////// ----- Article *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+section {
+	display: flex;
+}
+
+article {
+	width          : 76.83rem;
+	/*76.83rem*/
+	margin         : 10rem auto;
+	display        : flex;
+	flex-direction : column;
+	justify-content: center;
+
+	background-color: white;
+}
+
+.container-content {
+	margin: 20px;
+}
+
+.container-content h1 {
+	color         : #383333;
+	text-shadow   : 0 2px 2px grey;
+	padding       : 20px 0;
+	font-size     : 36px;
+	letter-spacing: 0px;
+	line-height   : 1.2;
+}
+
+.container-content p {
+	font-style : normal;
+	font-weight: 400;
+	font-size  : 16px;
+	line-height: 1.2;
+	text-indent: 30px;
+	color      : #616161;
+}
+
+/*////////////////////////////// ----- Article *FIM*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/*////////////////////////////// ----- Footer *INCIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+footer {
+	background-color: #202a2c;
+	padding         : 10px;
+}
+
+.container-footer {
+	background-color: #202a2c;
+	width           : 100%;
+	min-width       : 128rem;
+
+	display        : flex;
+	align-items    : center;
+	flex-direction : row-reverse;
+	justify-content: space-around;
+	margin         : auto;
+}
+
+.container-footer li {
+	color          : white;
+	padding        : 5px 0;
+	text-decoration: none;
+}
+
+.copyright {
+	color         : #ffffff;
+	font-size     : 2rem;
+	font-family   : monospace;
+	letter-spacing: 5px;
+}
+
+/*////////////////////////////// ----- Footer *FIM*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
