@@ -29,9 +29,11 @@ header h1 {
 	font-size: 2rem;
 	font-weight: 800;
 }
+
 header {
-	background-color:var(--bgcolor);
+	background-color: var(--bgcolor);
 }
+
 .caixa {
 	height: 96px;
 	display: flex;
@@ -43,6 +45,7 @@ header {
 	/* background-color: blue; */
 	background-color: var(--bgcolor);
 	align-items: center;
+	z-index: 1;
 
 }
 
@@ -84,8 +87,8 @@ footer {
 
 .copyright {
 	color: #ffffff;
-    font-size: 2rem;
-    letter-spacing: 5px;
+	font-size: 2rem;
+	letter-spacing: 5px;
 	margin-left: 60px;
 }
 
@@ -93,8 +96,8 @@ footer {
 
 /* EFEITOS */
 .post:hover {
-	transition: 1s;
-	transform: scale(1.015);
+	transition: .150s;
+	transform: scale(1.05);
 	box-shadow: 0 0 10px 5px #E0E0E0;
 }
 
@@ -115,7 +118,7 @@ footer {
 	transition: transform 1s;
 }
 
-.logo:hover { 
+.logo:hover {
 	transform: scale(0.9);
 	cursor: pointer;
 }

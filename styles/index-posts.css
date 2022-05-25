@@ -1,6 +1,7 @@
 .container-posts {
 	width: 100%;
 	min-width: 128rem;
+	height: 100vh;
 }
 
 .posts {

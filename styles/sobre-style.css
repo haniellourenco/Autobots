@@ -1,24 +1,23 @@
 /*////////////////////////////// ----- PAGE SOBRE *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 section {
 	display: flex;
+	justify-content: center;
 }
 
 article {
 	width          : 144rem;
 	/*76.83rem*/
-	margin         : 10rem auto;
+	margin         : 20rem auto 10rem auto;
 	display        : flex;
 	flex-direction : column;
 	justify-content: center;
 }
 
-/*------------------  -~^ Tamanha da página*/
+/*------------------  -~^ Tamanho da página*/
 .container-content {
-	margin: 20px;
 	padding-bottom: 60px;
 	background-color: #e0e0e054;
 	width: 142rem ;
-	position: relative;
 }
 
 .container-content h1 {
@@ -47,6 +46,8 @@ article {
 	display        	: flex;
 	align-items    	: center;
 	justify-content	: center;
+
+	
 }
 
 .page-title h1 {
@@ -55,17 +56,17 @@ article {
 }
 
 .goal-container {
-	width        	: 135.3rem;
+	width        	: 100%;
 	height       	: 360px;
-	margin       	: 45px auto;
+	margin			: 45px auto;
 	border-radius	: 5px;
 
+	position: relative;
 	background-color: #E0E0E0;
 	box-shadow      : 0 0 5px black;
 }
 
 .goal-content {
-	width      : 135.3rem;
 	height     : 360px;
 
 	display    : flex;
@@ -80,7 +81,7 @@ article {
 	margin        : 20px 0;
 
 	display    	  : flex;
-	align-items: center;
+	align-items   : center;
 }
 
 .icone {
@@ -131,8 +132,10 @@ article {
 /*////////////////////////////// ----- PERFILS *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
 .box-perfils {
+	width			: 70%;
 	height			: 600px;
-	margin          : 40px;
+	margin          : 40px auto;
+	padding			: 10px 0;
 	background-color: #E0E0E0;
 	box-shadow      : 0 0 5px black;
 
@@ -219,14 +222,17 @@ article {
 /* ----------------------- */
 
 /* ----------------------- */
+.container-box2 p {
+	transition: text-shadow .5s;
+}
+
 .container-box2 p:hover {
 	text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.534) ;
-	transition: 2s;
 }
 /* ----------------------- */
 .content-box {
-	height: 500px;
-	width: 629px;
+	height: 600px;
+	width: 450px;
 	overflow: hidden;
 	background-image: linear-gradient(to right, var(--bgcolor), black );
 	border: 1px solid black;
@@ -273,7 +279,7 @@ input {
 
 .slide {
 	width: 20%;
-	transition: .8s;
+	transition-duration: 0.8s;
 }
 /* ///////////////////// */
 #btn1:checked ~ .s1 {
