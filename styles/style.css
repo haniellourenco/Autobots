@@ -106,7 +106,7 @@ footer {
 }
 
 .efect-transition {
-	transition: font-size 0.150s;
+	transition: font-size 0.150s, text-decoration .150s;
 }
 
 .efect-transition:hover {
