@@ -45,7 +45,7 @@ article {
 /*////////////////////////////// ----- ImgUX-UI *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .bg-img{
     background-color: #091424;
-    background-image: linear-gradient(to right, #091424 10%, #091424 25%, #0d9999 50%, #fa6807 50%, #091424  75%, #091424 90%);
+    background-image: linear-gradient(to right, #091424 10%, #091424 25%, #0d9999 50%, #2b07fa 50%, #091424  75%, #091424 90%);
 
     width: 100%;
     min-width: 128rem;

@@ -1,5 +1,6 @@
 .container-box {
 	min-width: 128rem;
+	height: 100rem;
 	border: 2px solid transparent;
 }
 

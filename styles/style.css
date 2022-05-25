@@ -1,5 +1,6 @@
 :root {
 	--bgcolor: #202a2c;
+
 }
 
 html {
@@ -21,8 +22,7 @@ h1 {
 /*////////////////////////////// ----- HEADER *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .logo {
 	width: 334px;
-	height: 100%;
-	margin-left: 40px;
+	margin: 40px;
 }
 
 header h1 {
@@ -111,7 +111,7 @@ footer {
 
 .efect-transition:hover {
 	font-size: 24px;
-
+	text-decoration: underline;
 }
 
 .logo {

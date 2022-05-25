@@ -39,6 +39,7 @@ article {
     flex-direction: column;
     justify-content: center;
     background-color: #E0E0E0;
+    align-items: center;
 }
 
 .container-content {
@@ -63,7 +64,10 @@ article {
     color: #616161;
 }
 
-
+iframe {
+    margin: 40px;
+    box-shadow: 0 0 7px 2px var(--bgcolor);
+}
 /*////////////////////////////// ----- Article *FIM*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
 
