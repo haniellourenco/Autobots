@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 100%;
     width: 100%;
     font-size: 68px;
@@ -28,6 +29,7 @@
 
 section {
     display: flex;
+    justify-content: center;
 }
 
 article {
@@ -35,11 +37,12 @@ article {
     max-width: 95%;
     /*76.83rem*/
     margin: 10rem auto;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #E0E0E0;
     align-items: center;
+    background-color: #E0E0E0;
 }
 
 .container-content {
@@ -65,8 +68,9 @@ article {
 }
 
 iframe {
-    max-width: 100%;
+    max-width: 95%;
     margin: 40px;
     box-shadow: 0 0 7px 2px var(--bgcolor);
 }
+
 /*////////////////////////////// ----- Article *FIM*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
