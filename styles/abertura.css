@@ -5,7 +5,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    min-width: 128rem;
     height: 450px;
     display: flex;
     flex-direction: column;

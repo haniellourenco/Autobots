@@ -6,6 +6,7 @@ section {
 
 article {
 	width          : 144rem;
+	max-width	   : 95%;
 	/*76.83rem*/
 	margin         : 20rem auto 10rem auto;
 	display        : flex;
@@ -17,7 +18,7 @@ article {
 .container-content {
 	padding-bottom: 60px;
 	background-color: #e0e0e054;
-	width: 142rem ;
+	max-width: 100%;
 }
 
 .container-content h1 {
@@ -45,9 +46,11 @@ article {
 
 	display        	: flex;
 	align-items    	: center;
-	justify-content	: center;
+	justify-content	: center;	
+}
 
-	
+.page-title img {
+	max-width: 100%;
 }
 
 .page-title h1 {
@@ -95,17 +98,20 @@ article {
 }
 
 .container-box h3 {
+	max-width	  : 100%;
 	display       : flex;
 	flex-direction: column;
-	height        : 100px;
 	margin		  : auto;
 	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.589);
 }
 
-.container-box2 {
-	height			: 199px;
-	width 			: 645px;
+.title-span {
+	max-width: 100%;
+}
 
+.container-box2 {
+	width 			: 450px;
+	max-width		: 100%;
 	margin          : auto;
 	border-radius   : 4px;
 	padding         : 16px, 32px, 16px, 32px;
@@ -117,9 +123,10 @@ article {
 }
 
 .container-box2 p {
+	max-width	  : 100%;
 	margin		  : auto 20px;
 
-	font-size     : 18px;
+	font-size     : 12pt;
 	text-align    : center;
 	line-height   : 27px;
 	text-transform: uppercase;
@@ -132,7 +139,7 @@ article {
 /*////////////////////////////// ----- PERFILS *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
 .box-perfils {
-	width			: 70%;
+	width			: 100%;
 	height			: 600px;
 	margin          : 40px auto;
 	padding			: 10px 0;
@@ -153,7 +160,7 @@ article {
 .description p {
 	width: 100%;
 	height: 100%;
-
+	
 	margin: 20px;
 	text-indent: 0;
 	text-align : justify;
@@ -175,7 +182,7 @@ article {
 
 	text-align	 : center;
 	color		 : black;
-	font-size	 : 18px;
+	font-size	 : 12pt;
 	border-top	 : 1px solid black;
 	border-bottom: 1px solid black;
 

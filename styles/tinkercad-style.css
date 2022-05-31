@@ -6,6 +6,7 @@ section {
 
 article {
     width: 76.83rem;
+    max-width: 95%;
     margin: 20rem auto;
     background-color: #E0E0E0;
 }

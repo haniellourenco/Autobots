@@ -6,23 +6,23 @@
 html {
 	font-size: 62.5%;
 	font-family: "Montserrat", sans-serif;
+	box-sizing: border-box;
 }
 
 body {
 	font-size: 1.4rem;
-
+	max-width: 100%;
 }
 
 /* = 14px*/
 h1 {
 	font-size: 1.6rem;
 }
-
 /* = 16px*/
+
 /*////////////////////////////// ----- HEADER *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .logo {
 	width: 334px;
-	margin: 40px;
 }
 
 header h1 {
@@ -30,20 +30,19 @@ header h1 {
 	font-weight: 800;
 }
 
-header {
-	background-color: var(--bgcolor);
-}
+
 
 .caixa {
 	height: 96px;
 	display: flex;
 	position: fixed;
 	/* width           : 1280px; */
-	width: 100%;
-	min-width: 144rem;
+	width: 100vw;
+	max-width: 100%;
 	margin: 0 auto;
 	/* background-color: blue; */
 	background-color: var(--bgcolor);
+	justify-content: space-between;
 	align-items: center;
 	z-index: 1;
 
@@ -55,16 +54,14 @@ header {
 	color: #ffffff;
 }
 
-nav {
-	position: absolute;
-	/* top  : 16px; */
-	/* top  : 1rem; */
-	right: 1.4rem;
+nav ul{
+	margin-right: 20px;
 }
 
 nav li {
-	display: inline;
-	margin: 0 0 0 40px;
+	display: inline-flex;
+	flex-direction: row;
+	margin: 0 0 0 40px;	
 }
 
 nav a {
@@ -81,8 +78,7 @@ footer {
 	display: flex;
 	background-color: #202a2c;
 	padding: 4rem 0;
-	width: 100%;
-	min-width: 144rem;
+	max-width: 100%;
 }
 
 .copyright {

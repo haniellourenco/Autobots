@@ -1,11 +1,8 @@
 .container-posts {
 	width: 100%;
-	min-width: 128rem;
-	height: 100vh;
 }
 
 .posts {
-	width : 1280px;
 	margin: 10rem auto;
 }
 
@@ -13,16 +10,16 @@
 	background    : #e8e8e8;
 	display       : inline-block;
 	text-align    : left;
-	width         : 27%;
-	vertical-align: top;
-	margin        : 0 3%;
+	width		  : 280px;
+	margin        : 20px 20px;
 	box-sizing    : border-box;
-	height        : 40rem;
 }
 
 .post-caixa {
 	padding: 0 2rem 3rem;
 	height : 20rem;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .post img {
@@ -52,7 +49,6 @@
 
 .post-leiamais a {
 	position       : relative;
-	bottom         : -5rem;
 	text-decoration: none;
 	color          : red;
 }
