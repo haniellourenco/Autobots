@@ -1,30 +1,41 @@
 /*///////////////////IMAGEM ABERTURA////////////////////////////*/
-.img-abertura{
+.img-abertura {
     background-image: url(../assets/img-abertura.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: calc(1280px + 100%);
+    max-width: 100%;
     height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
-.img-abertura .title-abertura{
+.img-abertura .title-abertura {
     text-align: center;
-    width: 100%;
     margin-bottom: 20px;
-    font-size: 60px;
+    font-size: 48pt;
     text-shadow: 0 5px 5px black;
     color: white;
 }
 
-.img-abertura .subtitle-abertura{
+.img-abertura .subtitle-abertura {
     text-align: center;
-    width: 100%;
-    font-size: 30px;
+    font-size: 24pt;
     text-shadow: 0 5px 5px black;
     color: white;
+}
+
+@media only screen and (max-width: 707px) {
+  
+    .title-abertura {
+        transition: padding-top .7s;
+        padding-top: 40px;
+    }
+
+    .subtitle-abertura {
+        transition: display .5s;
+        display: none;
+    }
 }
